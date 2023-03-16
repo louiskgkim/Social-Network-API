@@ -1,7 +1,7 @@
 # Social-Network-API
 
 ## Description
-
+This is a API back-end database designed for social networking. As a command line application, that uses Mongoose, Express, and Moment to enable users to seamlessly view, create, update, and delete data from the database. Whether you prefer Insomnia or MongoDB Compass, this tool allows you to work with your social network data more efficiently and effectively.
 
 ## Table of Contents
 
@@ -15,43 +15,78 @@
 ## Installation
 Some files will be needed in order for this generator to operate:
 
-- Node.js @16.16.0
+- Insomnia
+- MongoDB Compass
 - npm i express @4.16.14
-- MySQL2 @3.1.0
-- Sequelize @6.28.0
-- dotenv @16.0.3
+- mongoose @6.8.0
+- moment @2.29.4
 
 
 ## Usage
 1. Clone the repository
 2. Open terminal in the right file path
-3. Run 'npm install' or 'npm i' to download the packages needed
-4. Run the command node server.js to run the software
-5. Run "mysql -u root -p"
-6. Enter PW when prompted
-7. Run "source db/schema.sql"
-8. Run "quit"
-9. Run "npm run seed"
-10. Run "npm start"
+3. Run npm init -y into terminal to create a new .json file
+4. Run npm i into terminal
+5. Run npm i express into terminal
+6. Run npm i mongoose into terminal
+7. Run npm i moment into terminal
+8. Run npm start into the terminal
+9. Once you see the now Listening indication, open up MongoDB Compass and Insomnia.
 
 ## Demo Video
 - [Demo Video]()
 
 ## Screenshots
-### Put (Update) Request
-![Update]()
+GET /api/users
 
-### Delete Request
-![Delete]()
 
-### Post (Create) Request
-![Create]()
+GET /api/users/:userID
 
-### Get Request
-![Get]()
 
-### Get by ID Request
-![Get by ID]()
+POST /api/users
+
+
+PUT /api/users/:userID
+
+
+DELETE /api/users/:userID
+
+
+POST /api/users/:userID/friends/:friendID
+
+
+DELETE /api/users/:userID/friends/:friendID
+
+
+GET /api/thoughts
+
+
+GET /api/thoughts/:thoughtID
+
+
+POST /api/thoughts
+
+
+PUT /api/thoughts/:thoughtID
+
+
+DELETE /api/thoughts/:thoughtID
+
+
+POST /api/thoughts/:thoughtID/reactions
+
+
+DELETE /api/thoughts/:thoughtID/reactions/reactionID
+
+
+MongoDB Compass for socialnetworkDB
+
+
+MongoDB Compass for socialnetworkDB users
+
+
+MongoDB Compass for socialnetworkDB thoughts
+
 
 
 ### Repository:
@@ -66,6 +101,10 @@ No collaborators for this project. But some references are listed below:
 
 - [Node Installation Guide](https://coding-boot-camp.github.io/full-stack/nodejs/how-to-install-nodejs/)
 - [Express.js Installation Guide](https://expressjs.com/en/starter/installing.html)
+- [MongoDB Installation Guide](https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-os-x/)
+- [Moment.js Installation Guide](https://momentjs.com/)
+- [Mongoose Installation Guide](https://www.npmjs.com/package/mongoose)
+
 
 ## License
 
