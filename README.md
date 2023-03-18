@@ -38,55 +38,55 @@ Some files will be needed in order for this generator to operate:
 
 ## Screenshots
 GET /api/users
-
+![GET :api:users](https://user-images.githubusercontent.com/115679155/226144020-5f1d1df7-aef1-40b4-970b-77635bf83b65.png)
 
 GET /api/users/userID
-
+![GET :api:users:userID](https://user-images.githubusercontent.com/115679155/226144023-8654cbfe-cd33-4211-9d2f-9dd783d06f9d.png)
 
 POST /api/users
-
+![POST :api:users](https://user-images.githubusercontent.com/115679155/226144026-af26d752-88bc-41c6-99e6-27c59ed72957.png)
 
 PUT /api/users/userID
-
+![PUT :api:users:userID](https://user-images.githubusercontent.com/115679155/226144028-ef9fd68f-441d-46d2-bc4e-8c7565094f1e.png)
 
 DELETE /api/users/userID
-
+![DELETE :api:users:userID](https://user-images.githubusercontent.com/115679155/226144031-1954713c-b1bf-4aaf-a78e-9fac3227fe97.png)
 
 POST /api/users/userID/friends/friendID
-
+![POST :api:users:userID:friends:friendID](https://user-images.githubusercontent.com/115679155/226144034-69766aed-15fa-4347-b4df-27c7e1aed3af.png)
 
 DELETE /api/users/userID/friends/friendID
-
+![DELETE :api:users:userID:friends:friendID](https://user-images.githubusercontent.com/115679155/226144035-8c076add-fedb-4e25-b2df-2678f20460e9.png)
 
 GET /api/thoughts
-
+![GET :api:thoughts](https://user-images.githubusercontent.com/115679155/226144037-b0d77ea7-e7f4-4624-8161-6cddfcc0f62d.png)
 
 GET /api/thoughts/thoughtID
-
+![GET :api:thoughts:thoughtID](https://user-images.githubusercontent.com/115679155/226144038-98895e84-35fa-43ab-ac44-a6082e30a6d7.png)
 
 POST /api/thoughts
-
+![POST :api:thoughts](https://user-images.githubusercontent.com/115679155/226144039-4922d21f-350a-4988-8258-7454ee48f234.png)
 
 PUT /api/thoughts/thoughtID
-
+![PUT :api:thoughts:thoughtID](https://user-images.githubusercontent.com/115679155/226144040-5d67a0d8-5a4a-40c8-bb85-d48e1c238fd6.png)
 
 DELETE /api/thoughts/thoughtID
-
+![DELETE :api:thoughts:thoughtID](https://user-images.githubusercontent.com/115679155/226144053-181da4e8-d0de-4c27-85af-8bf21650d402.png)
 
 POST /api/thoughts/thoughtID/reactions
-
+![POST :api:thoughts:thoughtID:reactions](https://user-images.githubusercontent.com/115679155/226144065-7dc0000e-0ae9-415d-83f0-2a41e41c4372.png)
 
 DELETE /api/thoughts/thoughtID/reactions/reactionID
-
+![DELETE :api:thoughts:thoughtID:reactions:reactionID](https://user-images.githubusercontent.com/115679155/226144073-59fa67cb-1ce2-459f-b2d4-a7078ac77705.png)
 
 MongoDB Compass for socialnetworkDB
-
+![SocialnetworkDB](https://user-images.githubusercontent.com/115679155/226144102-3ed72dd6-32cf-40d8-8b2f-62cef893b776.png)
 
 MongoDB Compass for socialnetworkDB users
-
+![Mongo users](https://user-images.githubusercontent.com/115679155/226144115-86ddcdda-90fe-4826-87eb-86df34dd2941.png)
 
 MongoDB Compass for socialnetworkDB thoughts
-
+![Mongo thoughts](https://user-images.githubusercontent.com/115679155/226144125-c30c8e16-2ad4-417f-a210-880ce0930673.png)
 
 
 ### Repository:
