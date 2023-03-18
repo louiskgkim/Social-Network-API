@@ -34,49 +34,49 @@ Some files will be needed in order for this generator to operate:
 9. Once you see the now Listening indication, open up MongoDB Compass and Insomnia.
 
 ## Demo Video
-- [Demo Video]()
+- [Demo Video](https://drive.google.com/file/d/1KkXn56cNIBMwTgzsONWFjNWirejueDc5/view)
 
 ## Screenshots
 GET /api/users
 
 
-GET /api/users/:userID
+GET /api/users/userID
 
 
 POST /api/users
 
 
-PUT /api/users/:userID
+PUT /api/users/userID
 
 
-DELETE /api/users/:userID
+DELETE /api/users/userID
 
 
-POST /api/users/:userID/friends/:friendID
+POST /api/users/userID/friends/friendID
 
 
-DELETE /api/users/:userID/friends/:friendID
+DELETE /api/users/userID/friends/friendID
 
 
 GET /api/thoughts
 
 
-GET /api/thoughts/:thoughtID
+GET /api/thoughts/thoughtID
 
 
 POST /api/thoughts
 
 
-PUT /api/thoughts/:thoughtID
+PUT /api/thoughts/thoughtID
 
 
-DELETE /api/thoughts/:thoughtID
+DELETE /api/thoughts/thoughtID
 
 
-POST /api/thoughts/:thoughtID/reactions
+POST /api/thoughts/thoughtID/reactions
 
 
-DELETE /api/thoughts/:thoughtID/reactions/reactionID
+DELETE /api/thoughts/thoughtID/reactions/reactionID
 
 
 MongoDB Compass for socialnetworkDB
