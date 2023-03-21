@@ -18,7 +18,7 @@ Some files will be needed in order for this generator to operate:
 - Insomnia
 - MongoDB Compass
 - npm i express @4.16.14
-- mongoose @6.8.0
+- mongoose @6.9.2
 - moment @2.29.4
 
 
